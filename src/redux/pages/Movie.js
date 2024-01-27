@@ -32,7 +32,7 @@ const Movie = (props) => {
                 <Typography align='left' variant='h6' gutterButton component="h6">
                     Director : {movie?.Director}
                 </Typography>
-                <Button variant="container" onClick={() => navigate("/")}>
+                <Button variant="contained" onClick={() => navigate("/")}>
                     Go Back
                 </Button>
             </div>
