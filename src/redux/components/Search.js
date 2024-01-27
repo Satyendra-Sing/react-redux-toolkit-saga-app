@@ -5,7 +5,7 @@ import useStyles from "../styles";
 import {getMovies} from "../features/movieSlice";
 
 const Search = () => {
-    const [name, setName] = useState("spider");
+    const [name, setName] = useState("batman");
     const classes = useStyles();
     const {
         moviesList: {Error: error}
